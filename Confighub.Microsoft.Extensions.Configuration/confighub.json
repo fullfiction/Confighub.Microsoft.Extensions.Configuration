@@ -1,0 +1,15 @@
+{
+  "ConfigHub": {
+    "Url": "{Base Url}",
+    "Token": "{Token}",
+    "ApplicationName": "{ApplicationName}",
+    "PushPath": "rest/push",
+    "PullPath": "rest/pull",
+    "EnableSync": true,
+    "EnableKeyCreation": true,
+    "UpdateAppSettings": false,
+    "PullContexts": [ "{Context1}", "{Context2}", "{Context3}" ],
+    "PushContexts": [ "{Context1}", "{Context2}", "{Context3}" ],
+    "ThrowExceptions":  false
+  }
+}

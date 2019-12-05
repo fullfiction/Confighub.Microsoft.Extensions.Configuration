@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <ConfigFile Include="$(MSBuildThisFileDirectory)..\content\confighub.json" />
+    </ItemGroup>
+    <Target Name="CopyConfigToProject" BeforeTargets="Build">
+        <Copy SourceFiles="@(ConfigFile)" DestinationFolder="$(ProjectDir)\"/>
+    </Target>
+</Project>
